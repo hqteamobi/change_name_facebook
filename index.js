@@ -1,10 +1,10 @@
 const fullName = document.querySelector('.aov4n071 .lzcic4wl')
 const listNames = [
   '=))',
-  'Lap Trinh Vien',
-  'Developer',
+  'Nguyen Xuan Hien',
+  'Gamer',
   'Coder',
-  '1+1 =?',
+  'Anh Yeu Em',
   'I Love You',
 ]
 const objects = []
@@ -22,7 +22,7 @@ class Infor {
 }
 
 function addName() {
-  for (let i = 0; i < 20; i++) {
+  for (let i = 0; i < 50; i++) {
     objects.push(new Infor())
   }
 }
@@ -35,6 +35,6 @@ setInterval(() => {
   if (index == objects.length) {
     index = 0
   }
-}, 200)
+}, 500)
 
 // Bạn down code này về là tui đoán bạn 100% chưa có ny :V
